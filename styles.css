@@ -1,0 +1,48 @@
+/*Common for all contents*/
+
+:root{                                                      /*This is the method used for defining color for our whole website*/
+  --primary-text-color:#183b56;
+  --secondary-text-color:#577592;
+  --ascent-color:#2294ed;
+  --ascent-color-dark:#1d69a3;
+}
+
+body{
+  color: var(--primary-text-color);
+}
+
+p{
+  color: var(--secondary-text-color);
+  line-height: 1.4rem;
+}
+
+a{
+  text-decoration: none;   /*jo hamare links ke under under-line aata hai wo hat jayega isko use karke*/
+}
+
+ul{
+  list-style: none;
+}
+
+/*navbar*/
+#navbar{
+  color: black;
+  background-color: #f3faff;
+  position: fixed;
+  top: 0;
+  z-index: 99;
+  left: 0;
+  right: 0;
+  font-family: 'Noto Sans', sans-serif;
+}
+.nav-link.activ{
+  color: darkred;
+}
+
+/*main*/
+#main{
+
+  margin-top: 100px;
+}
+
+
